@@ -1,0 +1,55 @@
+package com.crud.www.service;
+
+import java.util.List;
+
+import com.crud.www.security.MemberVO;
+
+@Slf4j
+@RequiredArgsConstructor
+@Service
+public class MemberServiceImpl implements MemberService{
+
+	@Override
+	public int insertMember(MemberVO mvo) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public boolean updateLastLogin(String authName) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public MemberVO detail(String Name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<MemberVO> getList() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void modify(MemberVO mvo) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void modifyPwd(MemberVO mvo) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int remove(String Name) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	
+}
