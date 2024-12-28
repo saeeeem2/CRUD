@@ -1,5 +1,0 @@
-package com.crud.www.security;
-
-public class CustomAuthService {
-
-}

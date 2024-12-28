@@ -1,5 +1,0 @@
-package com.crud.www.repository;
-
-public class MemberDAO {
-
-}
