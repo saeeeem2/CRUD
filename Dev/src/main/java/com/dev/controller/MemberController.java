@@ -15,4 +15,10 @@ public class MemberController {
 		return "memberMain";
 	}
 	
+	@RequestMapping(value = "/member/select", method = RequestMethod.GET)
+	public String memberView(MemberVO memberVO) {
+		
+		return "memberView";
+	}
+	
 }

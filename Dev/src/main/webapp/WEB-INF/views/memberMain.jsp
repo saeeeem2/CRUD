@@ -12,14 +12,14 @@
 		<table>
 			<tr>
 				<td>이름</td>
-				<td><input type="text" name="name" value=""></td>
+				<td><input type="text" name="name" value="이름"></td>
 			</tr>
 			<tr>
 				<td>나이</td>
-				<td><input type="text" name="age" value=""></td>
+				<td><input type="text" name="age" value="나이"></td>
 			</tr>
 			<tr>
-				<td colspan="2"><button>전송</button></td>
+				<td colspan="2"><button type="button">전송</button></td>
 			</tr>
 		</table>
 	</form>
