@@ -7,15 +7,14 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="/member/select" method="get">
-
+	<form>
 		
 		<table>
 			<tr>
-				<td>전송한 이름 :</td>
+				<td>전송한 이름 : ${member.name}</td> 
 			</tr>
 			<tr>
-				<td>전송한 나이 :</td>
+				<td>전송한 나이 : ${member.age}</td>
 			</tr>
 		</table>
 	</form>
