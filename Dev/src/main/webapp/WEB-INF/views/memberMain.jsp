@@ -8,7 +8,7 @@
 </head>
 <body>
 	<form action="/member/select" method="post">
-		
+		<h1> 게시판 만들기 </h1>
 		<table>
 			<tr>
 				<td>이름</td>
